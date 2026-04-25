@@ -278,6 +278,7 @@
   </div>
 </section>
 
+<!-- Framework -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -288,11 +289,49 @@
       <img src="./static/images/architecture.png" 
            alt="teaser image"
            style="width:100%; height:auto;">
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">The predicted clean trajectory is the shared object 
-          for feasibility-aware modeling in training, inference, and post-training.
-      </h2>
+      <!-- <h2 class="subtitle has-text-centered">
+        <span class="dnerf">Overview of FeaXDrive. 
+          Compared with noise-centric diffusion planning, 
+          FeaXDrive adopts a trajectory-centric formulation in which 
+          the predicted clean trajectory serves as the unified object for feasibility-aware modeling. 
+          On this basis, the method combines feasibility-aware training and 
+          inference-time drivable-area guidance to enhance trajectory-space feasibility 
+          throughout the diffusion planning process.
+      </h2> -->
+      <p class="has-text-centered" style="font-size:1.1rem; max-width:800px; margin:auto;">
+         <b> Overview of FeaXDrive. </b>
+          Compared with noise-centric diffusion planning, 
+          FeaXDrive adopts a trajectory-centric formulation in which 
+          the predicted clean trajectory serves as the unified object for feasibility-aware modeling. 
+          On this basis, the method combines feasibility-aware training and 
+          inference-time drivable-area guidance to enhance trajectory-space feasibility 
+          throughout the diffusion planning process.
+      </p>
     </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <h2 class="title is-3 has-text-centered">Results</h2>
+
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered">
+
+        <!-- 图片 -->
+        <img src="./static/images/test_table.png"
+             alt="Test results in NAVSIMv1"
+             style="width:100%; max-width:900px; height:auto;">
+
+        <!-- 说明文字 -->
+        <p style="margin-top:10px; font-size:1.1rem;">
+          Qualitative comparison of proposed FeaXDrive model in NAVSIMv1 benchmark.
+        </p>
+
+      </div>
+    </div>
+
   </div>
 </section>
 
